@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+.barra{
+    width: 100%;
+}
+
+.barrasuperior{
+    width: 100%;
+}
+
+.logo{
+    width:10%;
+    height: 10px;
+    background-color: violet;
+}
+
+.recheio{
+    width: 100%;
+    background-color:"#FFFFF";
+}
+
+.caixademateria1{
+    width: 100%;
+   background-color: rgba(149, 33, 159, 0.15);
+}
+
+.textomateria{
+    width: 80%;
+    font-size: 25px;
+    line-height: 43px;
+    color: #95219F;
+    font-family: "Lato";
+    margin: auto;
+    padding-top:20px;
+    padding-bottom: 20px;
+    
+
+}
+
+.imagemdacaixa{
+    width: 100%;
+    margin: auto;
+}
+
+.imagemdacaixa>img{
+    width: 100%;
+}
+
+.textofonte{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #958A8A;
+
+}
+
+p{
+    margin: 0%;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left: 10px;
+
+}
+.rodape{
+    width: 100%;
+    background-color: #95219F;
+}
+
+.barramenu{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.menu>a{
+    text-decoration:none;
+    color: #FFFFFF;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.menu>i{
+    color: #FFFFFF;
+    display: block;
+    text-align: center;
+    
+}
