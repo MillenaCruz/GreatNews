@@ -21,7 +21,8 @@
 
 .caixademateria1{
     width: 100%;
-   background-color: rgba(149, 33, 159, 0.15);
+    background-color: rgba(149, 33, 159, 0.15);
+    margin-bottom: 30px;
 }
 
 .textomateria{
@@ -93,6 +94,5 @@ p{
 .menu>i{
     color: #FFFFFF;
     display: block;
-    text-align: center;
-    
+    text-align: center; 
 }
