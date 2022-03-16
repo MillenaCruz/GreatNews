@@ -121,13 +121,13 @@ p{
     text-align: center; 
 }
 
-.menu:active{
+.menu:active, .menu:hover{
     background-color: #ba29c7cc;
 }
 
-.menu:active>i{
+.menu:active>i, .menu:hover>i{
     color: #bdbdbd;
 }
-.menu:active>a{
+.menu:active>a, .menu:hover>a{
     color: #bdbdbd;
 }
