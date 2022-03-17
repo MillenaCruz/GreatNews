@@ -42,13 +42,14 @@ body{
 
 .textomateria{
     width: 80%;
-    font-size: 25px;
+    font-size: 1.5em;
     line-height: 43px;
     color: #95219F;
     font-family: "Lato";
     margin: auto;
     padding-top:20px;
     padding-bottom: 20px;
+    overflow: auto;
 }
 
 .imagemdacaixa{
@@ -64,7 +65,7 @@ body{
     font-family: 'Lato';
     font-style: normal;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 1.5em;
     line-height: 29px;
 
     color: #958A8A;
@@ -90,8 +91,8 @@ p{
 
 .barramenu{
     width: 80%;
-    height: 100%;
     display: flex;
+    flex-direction: row;
     margin-left: auto;
     margin-right: auto;
     justify-content: space-between;
@@ -100,7 +101,7 @@ p{
 }
 
 .menu{
-    padding: 20px;  
+    padding: 20px;
 }
 .menu>a{
     text-decoration:none;
@@ -108,17 +109,17 @@ p{
     font-family: 'Lato';
     font-style: normal;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 1.125em;
     line-height: 20px;
     text-align: center;
     width: 100%;
-    height: 100%;
 }
 
 .menu>i{
     color: #FFFFFF;
     display: block;
-    text-align: center; 
+    text-align: center;
+    font-size: 1.125em;
 }
 
 .menu:active, .menu:hover{
@@ -130,4 +131,55 @@ p{
 }
 .menu:active>a, .menu:hover>a{
     color: #bdbdbd;
+}
+
+@media(max-width: 540px){
+    .menu>a{
+        font-size: 0.7em;
+    }
+
+    .menu>i{
+        font-size: 0.7em;
+    }
+
+    .textomateria{
+        font-size: 1em;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        line-height: 40px;
+    }
+
+    .textofonte{
+        font-size: 1em;
+    }
+}
+
+@media(max-width: 430px){
+    .menu>a{
+        display: 1.5em;
+    }
+
+    .menu>i{
+        font-size: 1.5em;
+    }
+}
+
+@media(max-width: 374px){
+    .menu>a{
+        display: none;
+    }
+
+    .menu>i{
+        
+        font-size: 1em;
+    }
+}
+
+@media(max-width: 320px){
+    
+
+    .menu>i{
+        
+        font-size: 0.5em;
+    }
 }
