@@ -33,6 +33,10 @@ body{
     width: 100%;
     background-color:"#FFFFF";
 }
+.recheio>a{
+    text-decoration: none;
+
+}
 
 .caixademateria1{
     width: 100%;
@@ -70,6 +74,7 @@ body{
 
     color: #958A8A;
 }
+
 
 p{
     margin: 0%;
@@ -133,6 +138,94 @@ p{
     color: #bdbdbd;
 }
 
+/*materias*/
+
+.barra-superior{
+    width: 100%;
+    /*filter: drop-shadow(0px 6px 4px rgba(0, 0, 0, 0.25));*/
+    box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content:space-between;
+    padding-top: 20px;
+}
+
+.seta{
+    display: flex;
+    justify-content:space-between;
+}
+
+.material-icons.iconesbarra{
+    color:#95219F;
+    font-size: 3em;
+    text-decoration: none;
+}
+    
+.logo-1{
+   border-radius: 50%;
+}
+
+.logo-1>img{
+    width: 100px;
+    height: 100px;
+}
+
+.redator{
+
+    width: 80%;
+    margin: auto;
+    padding-bottom: 20px;
+    overflow:auto;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5em;
+    line-height: 29px;
+
+    color: #958A8A;
+}
+.reportagem{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.reportagem>p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5em;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+.reportagem>h4{
+    font-family: 'Lato';
+    font-weight: bold;
+    font-size: 1.5em;
+    line-height: 29px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.fontes{
+   
+    padding-bottom: 20px;
+    overflow:auto;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5em;
+    line-height: 29px;
+
+    padding-left: 20px;
+    padding-right: 20px;
+
+    color: #958A8A;
+
+}
+
 @media(max-width: 540px){
     .menu>a{
         font-size: 0.7em;
@@ -152,6 +245,28 @@ p{
     .textofonte{
         font-size: 1em;
     }
+    
+
+    .material-icons.iconesbarra{
+        font-size: 2.1em;   
+    }
+
+    .redator{
+        font-size: 1.05em;
+
+    }
+
+    .reportagem>p{
+        font-size: 1.05em;
+    }
+
+    .reportagem>h4{
+        font-size: 1.05em;
+    }
+
+    .fontes{
+        font-size: 1.05em;
+    }
 }
 
 @media(max-width: 430px){
@@ -162,6 +277,25 @@ p{
     .menu>i{
         font-size: 1.5em;
     }
+
+    .barra-superior{
+        padding-top: 10px;
+    }
+
+    .logo-1>img{
+        width: 70px;
+        height: 70px;
+    }
+
+    .material-icons.iconesbarra{
+        font-size: 1.68em;   
+    }
+
+    .redator .reportagem>p  
+    .reportagem>h4 .fontes{
+        font-size: 0.84em;
+    }
+
 }
 
 @media(max-width: 374px){
@@ -173,6 +307,21 @@ p{
         
         font-size: 1em;
     }
+
+    .logo-1>img{
+        width: 50px;
+        height: 50px;
+    }
+
+    .material-icons.iconesbarra{
+        font-size: 1em;   
+    }
+
+    .redator .reportagem>p  
+    .reportagem>h4 .fontes{
+        font-size: 0.1em;
+    }
+
 }
 
 @media(max-width: 320px){
@@ -183,3 +332,5 @@ p{
         font-size: 0.5em;
     }
 }
+
+
